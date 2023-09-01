@@ -59,22 +59,22 @@ class PatientTest {
 	@Order(8)
 	@Test
 	void testSetFirstName() {
-		patient.setFirstName("GURUNATHAN");
+		patient.setFirstName("KAMESH");
 	}
 	@Order(9)
 	@Test
 	void testGetFirstName() {
-		assertEquals("GURUNATHAN", patient.getFirstName());
+		assertEquals("KAMESH", patient.getFirstName());
 	}
 	@Order(10)
 	@Test
 	void testSetLastName() {
-		patient.setLastName("PREMKUMAR");
+		patient.setLastName("SWETHA");
 	}
 	@Order(11)
 	@Test
 	void testGetLastName() {
-		assertEquals("PREMKUMAR", patient.getLastName());
+		assertEquals("SWETHA", patient.getLastName());
 	}
 	@Order(12)
 	@Test
